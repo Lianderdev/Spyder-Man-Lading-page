@@ -1,0 +1,46 @@
+@import url('header.css');
+@import url('hero.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex';
+    color: var(--color-white);
+}
+
+:root {
+    --color-black: #000407;
+    --color-white: #FFFFFF;
+    --color-orange: #F55827;
+    --color-gray: #2F2F3B;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--color-black);
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}

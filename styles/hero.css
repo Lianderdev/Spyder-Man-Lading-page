@@ -1,0 +1,85 @@
+.hero {
+    height: 800px;
+    background-image: url('/imgs/bg_hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 622px;
+    max-height: 545px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hero .hero-content h1 {
+    font-family: 'Mohave';
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 6rem;
+    text-transform: uppercase;
+    margin-left: -4px;
+}
+
+.hero .hero-content p {
+    font-family: Roboto Flex;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+}
+
+.hero .hero-content span {
+    font-family: Mohave;
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 4.4rem;
+    padding-top: 40px;
+    margin-left: -1.5px;
+}
+
+.hero .hero-content .buttons-content {
+    display: flex;
+    gap: 15px;
+}
+
+.hero .hero-content .buttons-content button:not(:nth-child(2)) {
+    border-radius: 30px;
+    padding: 13px 40px;
+    background-color: var(--color-orange); 
+}
+
+.hero .hero-content .buttons-content button:last-child {
+    width: 56px; 
+    height: 56px;
+    border-radius: 50%;
+    border: 1px solid var( --color-gray);
+}
+
+.hero .hero-content .info-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 4rem;
+}
+
+.hero .hero-content .info-content .info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero .hero-content .info-content .info img {
+    width: 20px;
+    height: 20px;
+}
+
+.hero .hero-content .info-content .info p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+}
+
