@@ -11,7 +11,7 @@ footer::before {
     background-image: url(/imgs/Group\ 27.svg);
     background-position: center center;
     background-repeat: no-repeat;
-    width: 1200px;
+    width: 100%;
     height: 16px;
     position: absolute;
     top: 0;
@@ -56,6 +56,11 @@ footer .footer-content-rigth span {
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 1.8rem;
+}
+
+footer .footer-content-rigth img {
+    width: 120px;
+    height: 20px;
 }
 
 @media (max-width: 760px) {

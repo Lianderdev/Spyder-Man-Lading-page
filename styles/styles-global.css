@@ -24,7 +24,6 @@ html {
 
 body {
     background-color: var(--color-black);
-    overflow-x: hidden;
 }
 
 .container {
@@ -40,10 +39,6 @@ a {
 
 ul {
     list-style: none;
-}
-
-img {
-    width: 100%;
 }
 
 button {
