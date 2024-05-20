@@ -44,18 +44,18 @@
 
 .btn-voltar {
     position: absolute;
-    left: -10px;
+    left: 10px;
     top: 47%;
     background-color: #2F2F3B;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    z-index: 100;
+
 }
 
 .btn-next {
     position: absolute;
-    right: -10px;
+    right: 10px;
     top: 47%;
     background-color: #2F2F3B;
     width: 40px;
