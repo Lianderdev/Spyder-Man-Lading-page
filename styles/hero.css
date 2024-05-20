@@ -16,6 +16,7 @@
     gap: 2rem;
 }
 
+
 .hero .hero-content h1 {
     font-family: 'Mohave';
     font-size: 5.6rem;
@@ -49,7 +50,10 @@
 .hero .hero-content .buttons-content button:not(:nth-child(2)) {
     border-radius: 30px;
     padding: 13px 40px;
-    background-color: var(--color-orange); 
+    background-color: var(--color-orange);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
 }
 
 .hero .hero-content .buttons-content button:last-child {
@@ -57,6 +61,9 @@
     height: 56px;
     border-radius: 50%;
     border: 1px solid var( --color-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero .hero-content .info-content {
@@ -82,4 +89,56 @@
     font-weight: 500;
     line-height: 2.4rem;
 }
+@media(max-width: 850px) {
+    :root {
+        font-size: 8px;
+    }
 
+    .hero-content {
+        max-width: 500px;
+    }
+}
+
+@media(max-width: 715px) {
+    .hero {
+        align-items: start;
+        padding-top: 50px;
+    }
+}
+
+@media(max-width: 715px) {
+    .hero {
+       background-position: 60%; 
+    }
+}
+
+@media(max-width: 674px) {
+    .hero {
+        height: calc(800px - 70px);
+     }
+
+    .hero-content {
+        max-width: 400px;
+    }
+
+    .hero .hero-content h1 {
+        padding-right: 100px;
+    }
+
+    .hero .hero-content .buttons-content button:not(:nth-child(2)) {
+        padding: 2px 30px;
+    }
+
+    .hero .hero-content .buttons-content button:last-child {
+        width: 40px; 
+        height: 40px;
+    }
+}
+
+
+@media(max-width: 467px) {
+    .hero .hero-content .info-content {
+        max-width: 300px;
+    }
+
+}
