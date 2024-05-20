@@ -1,6 +1,7 @@
 .vilao {
     width: 100%;
     height: 800px;
+    padding: 0 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,5 +85,23 @@
 
     90% {
         background-image: url('/img-slider/10.jpg');
+    }
+}
+
+@media (max-width: 1000px) {
+    .vilao {
+        height: 600px;
+    }
+}
+
+@media (max-width: 600px) {
+    .vilao {
+        height: 400px;
+    }
+}
+
+@media (max-width: 450px) {
+    .vilao {
+        height: 300px;
     }
 }
