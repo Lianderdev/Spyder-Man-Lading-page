@@ -1,0 +1,90 @@
+.latest-video {
+    padding: 70px 15px;
+}
+
+.latest-video .container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 30px;
+}
+
+.latest-video  h2 {
+    font-family: Mohave;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3.3rem;
+    text-transform: uppercase;
+}
+
+.latest-video .cards {
+    display: flex;
+    gap: 30px;
+}
+
+.latest-video .cards .card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.latest-video .cards .card img {
+    width: 350px;
+    height: 215px;
+    background-size: cover;
+}
+
+.latest-video .cards .card span {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.1rem;
+    color: #C0C0CC;
+}
+
+.btn-voltar {
+    position: absolute;
+    left: -10px;
+    top: 47%;
+    background-color: #2F2F3B;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+.btn-next {
+    position: absolute;
+    right: -10px;
+    top: 47%;
+    background-color: #2F2F3B;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+@media (max-width: 700px) {
+    .latest-video .cards .card img {
+        width: 250px;
+        height: 155px;
+    }
+    .btn-voltar, 
+    .btn-next {
+        width: 30px;
+        height: 30px;
+    }
+
+    .btn-voltar {
+        left: -5px;
+    }
+
+    .btn-next {
+        right: 5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .latest-video .cards .card img {
+        min-width: 305px;
+    }
+}

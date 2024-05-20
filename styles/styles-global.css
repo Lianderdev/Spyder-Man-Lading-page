@@ -1,5 +1,7 @@
 @import url('header.css');
 @import url('hero.css');
+@import url('footer.css');
+@import url('latest-videos.css');
 
 * {
     margin: 0;
@@ -22,6 +24,7 @@ html {
 
 body {
     background-color: var(--color-black);
+    overflow-x: hidden;
 }
 
 .container {
@@ -37,6 +40,10 @@ a {
 
 ul {
     list-style: none;
+}
+
+img {
+    width: 100%;
 }
 
 button {
