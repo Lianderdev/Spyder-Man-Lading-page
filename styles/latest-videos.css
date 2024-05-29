@@ -1,5 +1,6 @@
 .latest-video {
-    padding: 70px 15px;
+    padding: 60px 15px;
+    overflow: hidden;
 }
 
 .latest-video .container {
@@ -20,14 +21,17 @@
     font-family: Mohave;
     font-size: 2.4rem;
     font-weight: 600;
-    line-height: 3.3rem;
+    line-height: 3.0rem;
     text-transform: uppercase;
 }
+
+
 
 .latest-video .container .top .swiper-pagination {
     position: relative;
     width: auto;
     bottom: 0;
+    z-index: 200;
 }
 
 .latest-video .container .top .swiper-pagination .swiper-pagination-bullet {
@@ -50,12 +54,9 @@
 .latest-video .cards .card {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-}
-
-.latest-video .cards .card {
     width: 350px;
-    height: 215px;
+    height: 250px;
+    gap: 16px;
 }
 
 .latest-video .cards .card img {
@@ -94,6 +95,10 @@
 }
 
 @media (max-width: 700px) {
+    .latest-video {
+        padding: 40px 15px;
+    }
+    
     .latest-video .cards .card img {
         width: 250px;
         height: 155px;
@@ -112,9 +117,18 @@
     .btn-next {
         right: 5px;
     }
+
+    .latest-video .cards .card {
+        width: 350px;
+        height: 180px;
+    }
 }
 
 @media (max-width: 400px) {
+    .latest-video {
+        padding: 40px 15px;
+    }
+    
     .latest-video .cards .card img {
         min-width: 305px;
     }
