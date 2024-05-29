@@ -218,12 +218,14 @@
     }
 
     .hero .hero-content-left h1 {
-        padding-right: 100px;
+        padding-right: 95px;
     }
 
     .hero .hero-content-right {
         display: none;
     }
 
-
+    .hero .hero-content-left > p {
+        padding-right: 60px;
+    }
 }

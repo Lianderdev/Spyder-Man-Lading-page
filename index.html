@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="styles/styles-global.css">
+    <link rel="shortcut icon" href="imgs/Popcorn_Ltd_Edt_Slipcase.jpg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,300..700;1,300..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
@@ -81,14 +83,34 @@
     <!--Latest videos-->
     <section class="latest-video">
         <div class="container">
-            <h2>Último vídeos</h2>
+            <div class="top">
+                <h2>Último vídeos</h2>
+                <div class="swiper-pagination">,</div>
+            </div>
 
             <div class="cards">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide card">
+                        <img src="imgs/img.png" alt="">
+                        <span>Gameplay Reveal</span>
+                    </div>
 
-                <div class="card">
-                    <img src="imgs/img.png" alt="">
-                    <span>Gameplay Reveal</span>
-                </div>
+                    <div class="swiper-slide card">
+                        <img src="imgs/img.png" alt="">
+                        <span>Gameplay Reveal</span>
+                    </div>
+
+                    <div class="swiper-slide card">
+                        <img src="imgs/img.png" alt="">
+                        <span>Gameplay Reveal</span>
+                    </div>
+
+                    <div class="swiper-slide card">
+                        <img src="imgs/img.png" alt="">
+                        <span>Gameplay Reveal</span>
+                    </div>        
+                <!--
+              
 
                 <div class="card">
                     <img src="imgs/img.png" alt="">
@@ -108,6 +130,7 @@
                 <button class="btn-voltar"><i class="fa-solid fa-angle-left"></i></button>
                 <button class="btn-next"><i class="fa-solid fa-angle-right"></i></button>
             </div>
+            -->
         </div>
     </section>
 
@@ -133,7 +156,7 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
-
 </body>
 </html>

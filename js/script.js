@@ -1,4 +1,12 @@
-
+var swiper = new Swiper(".cards", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    speed: 800,
+    pagination: {
+      el: ".latest-video .swiper-pagination",
+      clickable: true,
+    },
+});
 
 
 function obterLarguraPagina() {
