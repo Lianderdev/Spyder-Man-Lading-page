@@ -1,8 +1,8 @@
 # SPYDER MAN 2 - LADING PAGE
-
-<p align="center">
-  <img src="caminho/para/imagem-desktop.png" alt="Versão Desktop" width="45%">
-  <img src="caminho/para/imagem-mobile.png" alt="Versão Mobile" width="45%">
+<br>
+<p align="left">
+  <img src="github/lp - spyder man - desktop.jpg" alt="Versão Desktop" width="70%" height="300px">
+  <img align="right" src="github/lp - spyder man - mobile.jpg" alt="Versão Mobile" width="20%" height="300px">
 </p>
 
 ## Sobre o projeto 
