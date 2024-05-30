@@ -25,7 +25,7 @@ Esta landing page foi criada com fins didáticos para anunciar o lançamento do 
 
 ## Como Executar
 ### Clone este repositório:
-git clone https://github.com/usuario/spyder-man-2-landing-page.git
+git clone https://github.com/Lianderdev/Spyder-Man-Lading-page.git
 ### Navegue até o diretório do projeto:
 cd spyder-man-2-landing-page
 Abra o arquivo index.html em seu navegador preferido.
