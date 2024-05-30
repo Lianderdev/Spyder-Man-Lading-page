@@ -21,11 +21,10 @@ Esta landing page foi criada com fins didáticos para anunciar o lançamento do 
 - <strong>Carrossel de Imagens</strong>: Um carrossel interativo para exibir as principais screenshots e trailers do jogo de forma dinâmica.
 - <strong>Animações</strong>: Animações suaves e interativas para melhorar a experiência do usuário e destacar elementos importantes.
   <br>
-<br>
 
 ## Como Executar
 ### Clone este repositório:
 git clone https://github.com/Lianderdev/Spyder-Man-Lading-page.git
 ### Navegue até o diretório do projeto:
-cd spyder-man-2-landing-page
+cd spyder-man-2-landing-page<br> <br>
 Abra o arquivo index.html em seu navegador preferido.
